@@ -40,6 +40,13 @@ public class Account {
         this.name = name;
     }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+    public void setUserId(long id) {
+        this.userId = id;
+    }
+
     public long getId() {
         return id;
     }
